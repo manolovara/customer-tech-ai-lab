@@ -1,0 +1,7 @@
+file,title,source,audience,allowed_groups
+eds-blocks.md,Edge Delivery block development,eds-blocks.md,developer,public
+migration-checklist.md,CMS migration checklist,migration-checklist.md,all,public
+consent-analytics.md,Consent and analytics basics,consent-analytics.md,marketer,public
+personalization-target.md,Personalization with Target,personalization-target.md,marketer,public
+partner-pricing.md,Partner pricing (fictional),partner-pricing.md,all,partner
+internal-roadmap.md,Internal roadmap (fictional),internal-roadmap.md,all,internal
