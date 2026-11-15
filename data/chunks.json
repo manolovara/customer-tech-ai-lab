@@ -190,5 +190,133 @@
   "source": "internal-roadmap.md",
   "audience": "all",
   "level": 2
+ },
+ {
+  "id": "product-thermo-1-0",
+  "title": "Altea Thermostat One",
+  "text": "# Altea Thermostat One\n\nType: product. Category: climate.\n\nSmart thermostat that learns your schedule and cuts heating waste.\n\nPublic price: 129 EUR. Tags: energy, comfort.",
+  "source": "product-thermo-1.md",
+  "audience": "all",
+  "level": 0
+ },
+ {
+  "id": "partner-price-thermo-1-0",
+  "title": "Altea Thermostat One",
+  "text": "# Installer pricing: Altea Thermostat One\n\nWholesale price for certified installers: 89 EUR (partner portal only).",
+  "source": "partner-price-thermo-1.md",
+  "audience": "all",
+  "level": 1
+ },
+ {
+  "id": "product-hub-pro-0",
+  "title": "Altea Hub Pro",
+  "text": "# Altea Hub Pro\n\nType: product. Category: platform.\n\nLocal-first hub with a REST API for custom installations.\n\nPublic price: 249 EUR. Tags: api, integration.",
+  "source": "product-hub-pro.md",
+  "audience": "all",
+  "level": 0
+ },
+ {
+  "id": "partner-price-hub-pro-0",
+  "title": "Altea Hub Pro",
+  "text": "# Installer pricing: Altea Hub Pro\n\nWholesale price for certified installers: 179 EUR (partner portal only).",
+  "source": "partner-price-hub-pro.md",
+  "audience": "all",
+  "level": 1
+ },
+ {
+  "id": "product-meter-2-0",
+  "title": "Altea Energy Meter",
+  "text": "# Altea Energy Meter\n\nType: product. Category: energy.\n\nClamp meter that shows live household consumption in the app.\n\nPublic price: 79 EUR. Tags: energy, monitoring.",
+  "source": "product-meter-2.md",
+  "audience": "all",
+  "level": 0
+ },
+ {
+  "id": "partner-price-meter-2-0",
+  "title": "Altea Energy Meter",
+  "text": "# Installer pricing: Altea Energy Meter\n\nWholesale price for certified installers: 55 EUR (partner portal only).",
+  "source": "partner-price-meter-2.md",
+  "audience": "all",
+  "level": 1
+ },
+ {
+  "id": "product-cam-3-0",
+  "title": "Altea Doorbell Cam",
+  "text": "# Altea Doorbell Cam\n\nType: product. Category: security.\n\nVideo doorbell with night vision and local storage.\n\nPublic price: 159 EUR. Tags: security, video.",
+  "source": "product-cam-3.md",
+  "audience": "all",
+  "level": 0
+ },
+ {
+  "id": "partner-price-cam-3-0",
+  "title": "Altea Doorbell Cam",
+  "text": "# Installer pricing: Altea Doorbell Cam\n\nWholesale price for certified installers: 115 EUR (partner portal only).",
+  "source": "partner-price-cam-3.md",
+  "audience": "all",
+  "level": 1
+ },
+ {
+  "id": "product-install-basic-0",
+  "title": "Professional Installation",
+  "text": "# Professional Installation\n\nType: service. Category: installation.\n\nA certified installer fits and configures one device at your home.\n\nPublic price: 99 EUR. Tags: installation.",
+  "source": "product-install-basic.md",
+  "audience": "all",
+  "level": 0
+ },
+ {
+  "id": "partner-price-install-basic-0",
+  "title": "Professional Installation",
+  "text": "# Installer pricing: Professional Installation\n\nWholesale price for certified installers: 99 EUR (partner portal only).",
+  "source": "partner-price-install-basic.md",
+  "audience": "all",
+  "level": 1
+ },
+ {
+  "id": "product-care-plan-0",
+  "title": "Altea Care Plan (annual)",
+  "text": "# Altea Care Plan (annual)\n\nType: service. Category: care.\n\nAnnual plan covering maintenance visits, firmware support and an extended warranty.\n\nPublic price: 59 EUR. Tags: maintenance, warranty.",
+  "source": "product-care-plan.md",
+  "audience": "all",
+  "level": 0
+ },
+ {
+  "id": "partner-price-care-plan-0",
+  "title": "Altea Care Plan (annual)",
+  "text": "# Installer pricing: Altea Care Plan (annual)\n\nWholesale price for certified installers: 59 EUR (partner portal only).",
+  "source": "partner-price-care-plan.md",
+  "audience": "all",
+  "level": 1
+ },
+ {
+  "id": "product-audit-0",
+  "title": "Home Energy Audit",
+  "text": "# Home Energy Audit\n\nType: service. Category: energy.\n\nOn-site audit with a savings plan and a prioritized device list.\n\nPublic price: 149 EUR. Tags: energy, audit.",
+  "source": "product-audit.md",
+  "audience": "all",
+  "level": 0
+ },
+ {
+  "id": "partner-price-audit-0",
+  "title": "Home Energy Audit",
+  "text": "# Installer pricing: Home Energy Audit\n\nWholesale price for certified installers: 109 EUR (partner portal only).",
+  "source": "partner-price-audit.md",
+  "audience": "all",
+  "level": 1
+ },
+ {
+  "id": "product-pro-training-0",
+  "title": "Installer Certification Course",
+  "text": "# Installer Certification Course\n\nType: service. Category: training.\n\nTwo-day course that certifies installers on the Altea platform and API.\n\nPublic price: 199 EUR. Tags: training, certification.",
+  "source": "product-pro-training.md",
+  "audience": "all",
+  "level": 0
+ },
+ {
+  "id": "partner-price-pro-training-0",
+  "title": "Installer Certification Course",
+  "text": "# Installer pricing: Installer Certification Course\n\nWholesale price for certified installers: 149 EUR (partner portal only).",
+  "source": "partner-price-pro-training.md",
+  "audience": "all",
+  "level": 1
  }
 ]

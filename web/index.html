@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Altea Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+ body{font-family:system-ui,sans-serif;margin:0;color:#1a1a1a;background:#fafafa}
+ header,main{max-width:960px;margin:0 auto;padding:16px}
+ .bar{display:flex;gap:16px;flex-wrap:wrap;align-items:center;font-size:14px}
+ .hero{background:#12372a;color:#fff;border-radius:12px;padding:28px;margin:16px 0}
+ .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px}
+ .card{background:#fff;border:1px solid #ddd;border-radius:10px;padding:14px}
+ .badge{font-size:12px;background:#e8efe9;border-radius:99px;padding:2px 8px}
+ .why{font-size:12px;color:#555}
+ input[type=text]{width:65%;padding:8px}
+ button{padding:8px 12px;cursor:pointer}
+ pre{white-space:pre-wrap}
+</style></head>
+<body>
+<header><h2>Altea Home <span class="badge" id="mode"></span></h2>
+ <div class="bar">
+  <label>Visitor <select id="who"></select></label>
+  <label>Viewing as <select id="role"><option value="visitor">Visitor</option>
+   <option value="partner">Certified installer</option></select></label>
+  <label><input type="checkbox" id="consent" checked> Personalization consent (cookie banner)</label>
+ </div></header>
+<main>
+ <section class="hero"><h1 id="h1"></h1><p id="sub"></p></section>
+ <h3>Recommended for you</h3><div class="grid" id="offers"></div>
+ <p class="why" id="explain"></p>
+ <h3>Ask Altea</h3>
+ <input type="text" id="q" placeholder="e.g. Which plan covers maintenance?">
+ <button id="send">Ask</button><pre id="a"></pre><div class="why" id="src"></div>
+ <h3>Talk to an expert</h3>
+ <label><input type="checkbox" id="contact"> I agree to be contacted about my interest</label>
+ <button id="lead">Request a call</button> <span class="why" id="leadmsg"></span>
+</main>
+<script>
+const $ = id => document.getElementById(id);
+const who = $("who");
+who.add(new Option("Anonymous visitor", ""));
+for (let i = 0; i < 15; i++) who.add(new Option(`user${i}@example.com`, `user${i}@example.com`));
+let lastOffer = "";
+const post = (url, body) => fetch(url, {method: "POST",
+  headers: {"Content-Type": "application/json"}, body: JSON.stringify(body)}).then(r => r.json());
+
+async function load() {
+  const p = new URLSearchParams({email: who.value, consent: $("consent").checked});
+  const r = await (await fetch("/api/experience?" + p)).json();
+  $("mode").textContent = r.personalized ? "personalized: " + r.persona : "generic";
+  $("h1").textContent = r.hero.title;
+  $("sub").textContent = r.hero.subtitle;
+  $("explain").textContent = r.explain;
+  const box = $("offers"); box.replaceChildren();
+  r.offers.forEach(o => {
+    const d = document.createElement("div"); d.className = "card";
+    const t = document.createElement("strong"); t.textContent = o.name;
+    const b = document.createElement("span"); b.className = "badge"; b.textContent = o.type;
+    const pr = document.createElement("p"); pr.textContent = o.price_eur + " EUR";
+    const w = document.createElement("div"); w.className = "why"; w.textContent = "Why: " + o.why.join("; ");
+    d.append(t, " ", b, pr, w); box.append(d);
+  });
+  lastOffer = r.offers.length ? r.offers[0].name : "";
+}
+
+$("send").onclick = async () => {
+  $("a").textContent = "...";
+  const r = await post("/api/ask", {question: $("q").value, email: who.value,
+                                    role: $("role").value, consent: $("consent").checked});
+  $("a").textContent = r.answer;
+  $("src").textContent = r.sources.length ? "Sources: " + r.sources.join(", ") : "";
+};
+$("lead").onclick = async () => {
+  const r = await post("/api/lead", {email: who.value, interest: lastOffer,
+                                    consent: $("contact").checked});
+  $("leadmsg").textContent = r.status + (r.reason ? ": " + r.reason : "");
+};
+["who", "consent"].forEach(id => $(id).onchange = load);
+load();
+</script></body></html>
