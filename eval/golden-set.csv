@@ -1,0 +1,8 @@
+question,groups,expected_source,must_refuse
+How do I create a block in Edge Delivery?,public,eds-blocks.md,no
+What should I check before a CMS migration?,public,migration-checklist.md,no
+How does consent affect analytics tags?,public,consent-analytics.md,no
+What is on the internal roadmap?,public;internal,internal-roadmap.md,no
+What is on the internal roadmap?,public,,yes
+What are the partner prices?,public,,yes
+Who won the 2018 World Cup?,public,,yes

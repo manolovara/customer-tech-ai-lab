@@ -1,0 +1,147 @@
+{"event_id": "4a432b99-047d-4a66-8653-1cd2a1838f73", "ts": "2026-11-01T09:05:00", "type": "page_view", "anonymous_id": "d7e808a7", "topic": "marketer", "page": "/docs/consent"}
+{"event_id": "a50f26a6-4f75-47bf-bec5-754fc4dd7d24", "ts": "2026-11-01T09:29:00", "type": "page_view", "anonymous_id": "d7e808a7", "topic": "developer", "page": "/docs/blocks"}
+{"event_id": "0cb8261c-ccf9-4ab1-9318-f4cab54e4568", "ts": "2026-11-01T10:02:00", "type": "page_view", "anonymous_id": "d7e808a7", "topic": "marketer", "page": "/docs/consent"}
+{"event_id": "a62adc48-2577-4349-a739-04222e87199c", "ts": "2026-11-01T10:08:00", "type": "page_view", "anonymous_id": "d7e808a7", "topic": "marketer", "page": "/docs/consent"}
+{"event_id": "229a11f6-71bd-4559-a637-d3296daba0e7", "ts": "2026-11-01T10:13:00", "type": "page_view", "anonymous_id": "d7e808a7", "topic": "marketer", "page": "/docs/consent"}
+{"event_id": "6644245f-1901-404e-891a-bb2da0d555a9", "ts": "2026-11-01T10:29:00", "type": "login", "anonymous_id": "d7e808a7", "email": "user0@example.com"}
+{"event_id": "908ea49a-2efc-4f4c-a159-d6704883a120", "ts": "2026-11-01T10:57:00", "type": "consent_update", "anonymous_id": "d7e808a7", "email": "user0@example.com", "personalization": true}
+{"event_id": "189a4f03-fdd6-40ca-b8ea-0478be6c780f", "ts": "2026-11-01T11:34:00", "type": "form_submit", "anonymous_id": "d7e808a7", "email": "user0@example.com", "form": "contact"}
+{"event_id": "d16d6c08-d01a-4cc0-a2ba-7046de379251", "ts": "2026-11-01T12:12:00", "type": "page_view", "anonymous_id": "4df921d1", "topic": "commerce", "page": "/docs/checkout"}
+{"event_id": "f54033ed-8165-4338-88db-fc69bfb4b887", "ts": "2026-11-01T12:27:00", "type": "page_view", "anonymous_id": "4df921d1", "topic": "developer", "page": "/docs/blocks"}
+{"event_id": "29029bb6-49af-43e2-b9d3-e8cfb0bc5632", "ts": "2026-11-01T12:36:00", "type": "page_view", "anonymous_id": "4df921d1", "topic": "developer", "page": "/docs/blocks"}
+{"event_id": "1925a766-d26b-46d6-96cd-60effd15c0c2", "ts": "2026-11-01T12:46:00", "type": "page_view", "anonymous_id": "4df921d1", "topic": "developer", "page": "/docs/blocks"}
+{"event_id": "50f34210-62da-4401-9d48-72db7a338bf3", "ts": "2026-11-01T13:23:00", "type": "page_view", "anonymous_id": "4df921d1", "topic": "developer", "page": "/docs/blocks"}
+{"event_id": "a40bc90e-6eb3-4938-9b09-da3e99999162", "ts": "2026-11-01T13:35:00", "type": "page_view", "anonymous_id": "4df921d1", "topic": "developer", "page": "/docs/blocks"}
+{"event_id": "68a320ec-fa2b-4af9-b04e-0965d8aaeca0", "ts": "2026-11-01T13:42:00", "type": "login", "anonymous_id": "4df921d1", "email": "user1@example.com"}
+{"event_id": "cbde7560-f242-45d3-8fc5-5bcd80e24eb6", "ts": "2026-11-01T13:55:00", "type": "consent_update", "anonymous_id": "4df921d1", "email": "user1@example.com", "personalization": true}
+{"event_id": "ee1c64d7-da1e-4681-9cda-8001fe921d8a", "ts": "2026-11-01T14:31:00", "type": "form_submit", "anonymous_id": "4df921d1", "email": "user1@example.com", "form": "contact"}
+{"event_id": "9bed00ca-410e-40f3-8234-21f9bf1cdd20", "ts": "2026-11-01T14:45:00", "type": "page_view", "anonymous_id": "f41f7487", "topic": "commerce", "page": "/docs/checkout"}
+{"event_id": "22d03fb8-671a-4aee-ab03-919f935bd705", "ts": "2026-11-01T15:20:00", "type": "page_view", "anonymous_id": "f41f7487", "topic": "commerce", "page": "/docs/checkout"}
+{"event_id": "4871c56f-8da9-48e9-9861-ae91e60e6a8f", "ts": "2026-11-01T15:41:00", "type": "page_view", "anonymous_id": "f41f7487", "topic": "commerce", "page": "/docs/checkout"}
+{"event_id": "fe98b447-64ca-4cdf-bb49-9cda57538230", "ts": "2026-11-01T16:11:00", "type": "page_view", "anonymous_id": "f41f7487", "topic": "commerce", "page": "/docs/checkout"}
+{"event_id": "cf8c9b49-988e-4e57-bd01-d23126f8d460", "ts": "2026-11-01T16:27:00", "type": "page_view", "anonymous_id": "f41f7487", "topic": "commerce", "page": "/docs/checkout"}
+{"event_id": "e177c5f3-3e7b-4fdf-87ab-b03c543fe697", "ts": "2026-11-01T16:43:00", "type": "page_view", "anonymous_id": "f41f7487", "topic": "commerce", "page": "/docs/checkout"}
+{"event_id": "28e6bb4b-02d5-4c74-9216-50122ba5e16a", "ts": "2026-11-01T16:49:00", "type": "login", "anonymous_id": "f41f7487", "email": "user2@example.com"}
+{"event_id": "4ca7083c-ab46-4b7b-b722-ff981bc0e8ac", "ts": "2026-11-01T17:23:00", "type": "consent_update", "anonymous_id": "f41f7487", "email": "user2@example.com", "personalization": true}
+{"event_id": "6e9bed91-0d45-4a7f-86ee-5277ee014cab", "ts": "2026-11-01T17:28:00", "type": "page_view", "anonymous_id": "47d425bf", "topic": "marketer", "page": "/docs/consent"}
+{"event_id": "a97906dc-4e8e-4985-b9d9-9760e4bb7763", "ts": "2026-11-01T17:55:00", "type": "page_view", "anonymous_id": "47d425bf", "topic": "marketer", "page": "/docs/consent"}
+{"event_id": "ce2ec2db-a8b1-4709-8566-63832938f775", "ts": "2026-11-01T18:17:00", "type": "page_view", "anonymous_id": "47d425bf", "topic": "marketer", "page": "/docs/consent"}
+{"event_id": "2965f408-4f27-4f04-98b3-017f680ad1d8", "ts": "2026-11-01T18:49:00", "type": "page_view", "anonymous_id": "47d425bf", "topic": "marketer", "page": "/docs/consent"}
+{"event_id": "634d56ae-199f-47d8-a17e-60abb6d5f0b1", "ts": "2026-11-01T19:16:00", "type": "login", "anonymous_id": "47d425bf", "email": "user3@example.com"}
+{"event_id": "c9408e28-d766-4068-b14c-728e5c8c71c2", "ts": "2026-11-01T19:52:00", "type": "page_view", "anonymous_id": "22f5112a", "topic": "developer", "page": "/docs/blocks"}
+{"event_id": "8e104ca8-1cb8-4f7f-84d7-67a6aef38cdc", "ts": "2026-11-01T20:13:00", "type": "page_view", "anonymous_id": "22f5112a", "topic": "marketer", "page": "/docs/consent"}
+{"event_id": "72fddae1-e5b6-4415-8317-bf60addaf9c8", "ts": "2026-11-01T20:35:00", "type": "login", "anonymous_id": "22f5112a", "email": "user3@example.com"}
+{"event_id": "67768acd-b73a-4f1b-a376-77deb7d433d9", "ts": "2026-11-01T21:14:00", "type": "consent_update", "anonymous_id": "22f5112a", "email": "user3@example.com", "personalization": true}
+{"event_id": "4cda3a8b-ab22-4251-a41c-c5b52e1417a4", "ts": "2026-11-01T21:19:00", "type": "page_view", "anonymous_id": "22b4722e", "topic": "marketer", "page": "/docs/consent"}
+{"event_id": "ac33e9d7-087d-40e2-bd52-d866916fd396", "ts": "2026-11-01T21:39:00", "type": "page_view", "anonymous_id": "22b4722e", "topic": "marketer", "page": "/docs/consent"}
+{"event_id": "3982909b-cd20-4283-b768-c08f954c2a86", "ts": "2026-11-01T22:16:00", "type": "login", "anonymous_id": "22b4722e", "email": "user4@example.com"}
+{"event_id": "17483eb7-1109-4552-ae30-0ba6f2d1eed2", "ts": "2026-11-01T22:45:00", "type": "consent_update", "anonymous_id": "22b4722e", "email": "user4@example.com", "personalization": false}
+{"event_id": "e7b4b286-c048-4f4d-9d9d-399848009276", "ts": "2026-11-01T23:10:00", "type": "form_submit", "anonymous_id": "22b4722e", "email": "user4@example.com", "form": "contact"}
+{"event_id": "80bb8958-d1df-490a-9e39-4e2adc33b11a", "ts": "2026-11-01T23:21:00", "type": "page_view", "anonymous_id": "dcfe4272", "topic": "marketer", "page": "/docs/consent"}
+{"event_id": "d46f7740-2d32-4bf4-bb1d-45260738065b", "ts": "2026-11-01T23:53:00", "type": "page_view", "anonymous_id": "dcfe4272", "topic": "commerce", "page": "/docs/checkout"}
+{"event_id": "6d6cb8b8-21c0-47c1-8533-72b617e20219", "ts": "2026-11-01T23:57:00", "type": "login", "anonymous_id": "dcfe4272", "email": "user5@example.com"}
+{"event_id": "6a4804d0-24d9-493e-ad6c-6035b56b9fee", "ts": "2026-11-02T00:06:00", "type": "page_view", "anonymous_id": "5f4d4d2f", "topic": "commerce", "page": "/docs/checkout"}
+{"event_id": "7648934f-dee0-4735-9916-8d6f8f8b9111", "ts": "2026-11-02T00:32:00", "type": "page_view", "anonymous_id": "5f4d4d2f", "topic": "commerce", "page": "/docs/checkout"}
+{"event_id": "b891d61b-e86f-4b9f-b492-77b2277393ba", "ts": "2026-11-02T01:04:00", "type": "page_view", "anonymous_id": "5f4d4d2f", "topic": "commerce", "page": "/docs/checkout"}
+{"event_id": "43d8d7e9-31b4-4cd3-af76-d80a02176fd0", "ts": "2026-11-02T01:10:00", "type": "login", "anonymous_id": "5f4d4d2f", "email": "user5@example.com"}
+{"event_id": "07a58642-7e15-4db7-bb79-46197f2e8117", "ts": "2026-11-02T01:36:00", "type": "consent_update", "anonymous_id": "5f4d4d2f", "email": "user5@example.com", "personalization": true}
+{"event_id": "534dd29a-0c9b-4782-b7c1-e71bd9dd1d25", "ts": "2026-11-02T02:03:00", "type": "page_view", "anonymous_id": "903f98a0", "topic": "developer", "page": "/docs/blocks"}
+{"event_id": "d859634d-5449-449c-a5d4-13ba681e9958", "ts": "2026-11-02T02:28:00", "type": "page_view", "anonymous_id": "903f98a0", "topic": "commerce", "page": "/docs/checkout"}
+{"event_id": "8c48f6c4-a758-4ceb-927d-5dc64e50ae14", "ts": "2026-11-02T02:34:00", "type": "page_view", "anonymous_id": "903f98a0", "topic": "developer", "page": "/docs/blocks"}
+{"event_id": "90029c00-cd74-4b28-86fb-a4c3d799d02c", "ts": "2026-11-02T02:49:00", "type": "page_view", "anonymous_id": "903f98a0", "topic": "developer", "page": "/docs/blocks"}
+{"event_id": "ca45975a-1b6d-4e61-9a0e-d9c147e6a1d3", "ts": "2026-11-02T02:50:00", "type": "page_view", "anonymous_id": "903f98a0", "topic": "developer", "page": "/docs/blocks"}
+{"event_id": "49974c1c-36b0-437e-9c51-c214bc100ec9", "ts": "2026-11-02T03:28:00", "type": "page_view", "anonymous_id": "903f98a0", "topic": "developer", "page": "/docs/blocks"}
+{"event_id": "826e2a9c-9f1c-4d81-ac7c-d12728471f5f", "ts": "2026-11-02T03:40:00", "type": "login", "anonymous_id": "903f98a0", "email": "user6@example.com"}
+{"event_id": "afd84105-a4b5-4ea3-aeb7-4df851a02deb", "ts": "2026-11-02T03:50:00", "type": "page_view", "anonymous_id": "689c2121", "topic": "developer", "page": "/docs/blocks"}
+{"event_id": "dd990612-cc68-4357-bd43-6903b68a144f", "ts": "2026-11-02T04:14:00", "type": "page_view", "anonymous_id": "689c2121", "topic": "developer", "page": "/docs/blocks"}
+{"event_id": "05e798ee-4db6-43ee-81b5-57b7d892f2e9", "ts": "2026-11-02T04:35:00", "type": "page_view", "anonymous_id": "689c2121", "topic": "developer", "page": "/docs/blocks"}
+{"event_id": "434a980f-35a2-4a63-b3b3-038719f2d37d", "ts": "2026-11-02T05:08:00", "type": "page_view", "anonymous_id": "689c2121", "topic": "commerce", "page": "/docs/checkout"}
+{"event_id": "5348fb5e-93e5-42e2-8789-3fee33f5bf30", "ts": "2026-11-02T05:48:00", "type": "login", "anonymous_id": "689c2121", "email": "user6@example.com"}
+{"event_id": "4ce647a4-6098-47aa-9d2b-e3d6e1abf457", "ts": "2026-11-02T05:52:00", "type": "consent_update", "anonymous_id": "689c2121", "email": "user6@example.com", "personalization": true}
+{"event_id": "f527d638-eaa6-48fa-8d11-3b91e4ba93a4", "ts": "2026-11-02T05:59:00", "type": "page_view", "anonymous_id": "da17b2d1", "topic": "commerce", "page": "/docs/checkout"}
+{"event_id": "cdfaa39c-e464-4d5c-84e1-a1c4b4a7ed69", "ts": "2026-11-02T06:25:00", "type": "page_view", "anonymous_id": "da17b2d1", "topic": "commerce", "page": "/docs/checkout"}
+{"event_id": "ec48c7ab-dd9e-4492-a3d1-bb39a1befe91", "ts": "2026-11-02T06:30:00", "type": "page_view", "anonymous_id": "da17b2d1", "topic": "commerce", "page": "/docs/checkout"}
+{"event_id": "f721fd4e-078e-4b78-b7de-d75bc8de09c2", "ts": "2026-11-02T06:41:00", "type": "page_view", "anonymous_id": "da17b2d1", "topic": "marketer", "page": "/docs/consent"}
+{"event_id": "e34d1375-2728-44bb-9d12-0e4cbb0f2a07", "ts": "2026-11-02T07:20:00", "type": "page_view", "anonymous_id": "da17b2d1", "topic": "commerce", "page": "/docs/checkout"}
+{"event_id": "15885cca-2f9f-4254-b919-51c7101b27a2", "ts": "2026-11-02T07:24:00", "type": "login", "anonymous_id": "da17b2d1", "email": "user7@example.com"}
+{"event_id": "22b94f0e-067b-477d-9906-168f4c7fcf5f", "ts": "2026-11-02T07:34:00", "type": "page_view", "anonymous_id": "3791f115", "topic": "commerce", "page": "/docs/checkout"}
+{"event_id": "1cd37dec-1eee-46ab-af5c-9820e4621a61", "ts": "2026-11-02T07:58:00", "type": "page_view", "anonymous_id": "3791f115", "topic": "commerce", "page": "/docs/checkout"}
+{"event_id": "9c29c16f-9269-4ee3-b969-9cbf2b7953e2", "ts": "2026-11-02T08:38:00", "type": "login", "anonymous_id": "3791f115", "email": "user7@example.com"}
+{"event_id": "7d46e35b-e3ff-4489-81ea-b65a3dc9292a", "ts": "2026-11-02T08:52:00", "type": "consent_update", "anonymous_id": "3791f115", "email": "user7@example.com", "personalization": true}
+{"event_id": "ccd58380-cb27-480c-89cc-0060a6a633a1", "ts": "2026-11-02T09:23:00", "type": "page_view", "anonymous_id": "86ec0ee2", "topic": "developer", "page": "/docs/blocks"}
+{"event_id": "8085aa97-3e4f-4905-bf49-baa9d6e7d5f5", "ts": "2026-11-02T09:55:00", "type": "page_view", "anonymous_id": "86ec0ee2", "topic": "developer", "page": "/docs/blocks"}
+{"event_id": "2bfc6999-8342-4b6b-a2dd-742f02e0c0a6", "ts": "2026-11-02T10:26:00", "type": "page_view", "anonymous_id": "86ec0ee2", "topic": "marketer", "page": "/docs/consent"}
+{"event_id": "d080188c-6c6d-464a-985a-ce2aca4a5a1a", "ts": "2026-11-02T10:32:00", "type": "page_view", "anonymous_id": "86ec0ee2", "topic": "developer", "page": "/docs/blocks"}
+{"event_id": "d4ae2e8f-1a6d-43a0-ad5e-f2bedc2fb2e1", "ts": "2026-11-02T10:42:00", "type": "login", "anonymous_id": "86ec0ee2", "email": "user8@example.com"}
+{"event_id": "d1fe304d-ec94-455c-b094-b85bc624fdd3", "ts": "2026-11-02T10:59:00", "type": "page_view", "anonymous_id": "c72e4790", "topic": "developer", "page": "/docs/blocks"}
+{"event_id": "12f48c19-7c48-4df4-8406-b224461688bb", "ts": "2026-11-02T11:10:00", "type": "page_view", "anonymous_id": "c72e4790", "topic": "developer", "page": "/docs/blocks"}
+{"event_id": "5dd504b2-ecfb-4c03-8a61-737e3cc59562", "ts": "2026-11-02T11:44:00", "type": "login", "anonymous_id": "c72e4790", "email": "user8@example.com"}
+{"event_id": "6520d8db-4336-48e4-a64c-c2c02fa4430e", "ts": "2026-11-02T12:18:00", "type": "consent_update", "anonymous_id": "c72e4790", "email": "user8@example.com", "personalization": true}
+{"event_id": "8dd8c0d7-a1aa-44f5-a1a4-331674f1ee12", "ts": "2026-11-02T12:53:00", "type": "form_submit", "anonymous_id": "c72e4790", "email": "user8@example.com", "form": "contact"}
+{"event_id": "940dfa4b-cf9a-41c8-adb1-6faa0fc9cb88", "ts": "2026-11-02T13:10:00", "type": "page_view", "anonymous_id": "bf17dd9a", "topic": "developer", "page": "/docs/blocks"}
+{"event_id": "780cc76a-48db-4097-a056-dabc9ca5befa", "ts": "2026-11-02T13:21:00", "type": "page_view", "anonymous_id": "bf17dd9a", "topic": "developer", "page": "/docs/blocks"}
+{"event_id": "b4285b37-1a45-41c0-bf71-b240b31a01de", "ts": "2026-11-02T13:44:00", "type": "login", "anonymous_id": "bf17dd9a", "email": "user9@example.com"}
+{"event_id": "b1aa0f13-4bb4-4b90-bbb9-d04cb8e66838", "ts": "2026-11-02T14:17:00", "type": "page_view", "anonymous_id": "6f550978", "topic": "developer", "page": "/docs/blocks"}
+{"event_id": "81fa8c33-b63c-4c0c-944f-3780782b2be2", "ts": "2026-11-02T14:32:00", "type": "page_view", "anonymous_id": "6f550978", "topic": "developer", "page": "/docs/blocks"}
+{"event_id": "78cb943c-ec4f-47b4-99dd-b0854e6a1306", "ts": "2026-11-02T14:45:00", "type": "page_view", "anonymous_id": "6f550978", "topic": "developer", "page": "/docs/blocks"}
+{"event_id": "99de5ad8-32fb-4153-ab38-6349b4697935", "ts": "2026-11-02T15:01:00", "type": "login", "anonymous_id": "6f550978", "email": "user9@example.com"}
+{"event_id": "34ef1801-3a6c-449b-8f93-ad0395e9f631", "ts": "2026-11-02T15:16:00", "type": "consent_update", "anonymous_id": "6f550978", "email": "user9@example.com", "personalization": false}
+{"event_id": "8676dcfc-9260-4353-b43d-0746f7d2e972", "ts": "2026-11-02T15:48:00", "type": "form_submit", "anonymous_id": "6f550978", "email": "user9@example.com", "form": "contact"}
+{"event_id": "61bcb8d5-a9e8-4183-9951-5ab2ea32d276", "ts": "2026-11-02T16:19:00", "type": "page_view", "anonymous_id": "3cff4e3b", "topic": "marketer", "page": "/docs/consent"}
+{"event_id": "14720c37-49ff-4c35-b314-4404e43f9234", "ts": "2026-11-02T16:58:00", "type": "page_view", "anonymous_id": "3cff4e3b", "topic": "marketer", "page": "/docs/consent"}
+{"event_id": "5532af5f-3f2f-49ff-aee4-80c5ff7214e7", "ts": "2026-11-02T17:21:00", "type": "login", "anonymous_id": "3cff4e3b", "email": "user10@example.com"}
+{"event_id": "8b1b42c4-15b3-4ff8-a5d5-b703a2cf925f", "ts": "2026-11-02T17:44:00", "type": "consent_update", "anonymous_id": "3cff4e3b", "email": "user10@example.com", "personalization": true}
+{"event_id": "e03a2881-e40e-4a42-8e75-0eb2cf665f8c", "ts": "2026-11-02T18:15:00", "type": "page_view", "anonymous_id": "8c420892", "topic": "marketer", "page": "/docs/consent"}
+{"event_id": "826609f2-bb3a-4c36-ad79-fe529636f7be", "ts": "2026-11-02T18:29:00", "type": "page_view", "anonymous_id": "8c420892", "topic": "marketer", "page": "/docs/consent"}
+{"event_id": "84e3f1da-43c9-42d5-94e4-14d25eb17d9e", "ts": "2026-11-02T19:09:00", "type": "page_view", "anonymous_id": "8c420892", "topic": "marketer", "page": "/docs/consent"}
+{"event_id": "1bb995cf-b0a3-4717-9f7a-31020b293cbe", "ts": "2026-11-02T19:10:00", "type": "login", "anonymous_id": "8c420892", "email": "user11@example.com"}
+{"event_id": "da1802d1-7fd8-45e5-9432-87c09aa0d493", "ts": "2026-11-02T19:33:00", "type": "consent_update", "anonymous_id": "8c420892", "email": "user11@example.com", "personalization": true}
+{"event_id": "35c1c8f4-91b4-490e-882d-22e25324aa71", "ts": "2026-11-02T19:46:00", "type": "page_view", "anonymous_id": "cb96bc18", "topic": "developer", "page": "/docs/blocks"}
+{"event_id": "c1fecce5-c786-4beb-80d7-77d265c6228b", "ts": "2026-11-02T19:58:00", "type": "page_view", "anonymous_id": "cb96bc18", "topic": "developer", "page": "/docs/blocks"}
+{"event_id": "bb7ab96c-afcb-4b49-a9b2-f4cfaa6c4418", "ts": "2026-11-02T20:20:00", "type": "page_view", "anonymous_id": "cb96bc18", "topic": "developer", "page": "/docs/blocks"}
+{"event_id": "eda3916d-3b03-4d2a-b31d-41bea23f478c", "ts": "2026-11-02T20:46:00", "type": "page_view", "anonymous_id": "cb96bc18", "topic": "developer", "page": "/docs/blocks"}
+{"event_id": "5f60d5a4-23aa-499b-a7f7-da7ad3cc5af0", "ts": "2026-11-02T20:52:00", "type": "page_view", "anonymous_id": "cb96bc18", "topic": "developer", "page": "/docs/blocks"}
+{"event_id": "bb74c775-50b2-4518-b934-d848dff7f388", "ts": "2026-11-02T21:03:00", "type": "login", "anonymous_id": "cb96bc18", "email": "user12@example.com"}
+{"event_id": "8ba6e49e-91f4-42f1-b731-048dc112ca8c", "ts": "2026-11-02T21:12:00", "type": "consent_update", "anonymous_id": "cb96bc18", "email": "user12@example.com", "personalization": true}
+{"event_id": "150d1e12-bdf3-4148-a445-93392fcf0035", "ts": "2026-11-02T21:50:00", "type": "form_submit", "anonymous_id": "cb96bc18", "email": "user12@example.com", "form": "contact"}
+{"event_id": "55a8ffbc-e4bd-4298-8c47-7cdd5a6dc9f8", "ts": "2026-11-02T22:13:00", "type": "page_view", "anonymous_id": "2a888f4d", "topic": "marketer", "page": "/docs/consent"}
+{"event_id": "400128d7-dddb-4d50-8bf5-d4306e96e935", "ts": "2026-11-02T22:49:00", "type": "page_view", "anonymous_id": "2a888f4d", "topic": "marketer", "page": "/docs/consent"}
+{"event_id": "60d3ef3f-309c-46ae-8928-96d19f3d754b", "ts": "2026-11-02T22:50:00", "type": "page_view", "anonymous_id": "2a888f4d", "topic": "marketer", "page": "/docs/consent"}
+{"event_id": "ed8d8bd6-f838-4a27-94ca-e91b4dba66cf", "ts": "2026-11-02T22:57:00", "type": "page_view", "anonymous_id": "2a888f4d", "topic": "marketer", "page": "/docs/consent"}
+{"event_id": "be95a6d0-ae00-4277-9f15-056bd13b8bed", "ts": "2026-11-02T23:06:00", "type": "page_view", "anonymous_id": "2a888f4d", "topic": "marketer", "page": "/docs/consent"}
+{"event_id": "c181dfef-c937-4be6-b49f-49fadc8ab20c", "ts": "2026-11-02T23:19:00", "type": "page_view", "anonymous_id": "2a888f4d", "topic": "marketer", "page": "/docs/consent"}
+{"event_id": "c6c329ed-1bbd-491f-973a-8c6c1b253614", "ts": "2026-11-02T23:33:00", "type": "login", "anonymous_id": "2a888f4d", "email": "user13@example.com"}
+{"event_id": "d190b256-e980-450f-a46a-55a419b62d66", "ts": "2026-11-02T23:47:00", "type": "consent_update", "anonymous_id": "2a888f4d", "email": "user13@example.com", "personalization": true}
+{"event_id": "2bcbcf6e-69d1-4467-87eb-69255f54e389", "ts": "2026-11-03T00:03:00", "type": "form_submit", "anonymous_id": "2a888f4d", "email": "user13@example.com", "form": "contact"}
+{"event_id": "57489d86-4948-4f7b-9f14-236f2024f655", "ts": "2026-11-03T00:12:00", "type": "page_view", "anonymous_id": "6b4cf179", "topic": "commerce", "page": "/docs/checkout"}
+{"event_id": "99e8ca78-bf10-4e99-bd0b-65cb4f153a2a", "ts": "2026-11-03T00:35:00", "type": "page_view", "anonymous_id": "6b4cf179", "topic": "commerce", "page": "/docs/checkout"}
+{"event_id": "691bf1f8-e43e-42dd-981a-bd3532e603fb", "ts": "2026-11-03T01:13:00", "type": "page_view", "anonymous_id": "6b4cf179", "topic": "commerce", "page": "/docs/checkout"}
+{"event_id": "547bf1db-c642-4d23-bacc-43fb413602eb", "ts": "2026-11-03T01:40:00", "type": "page_view", "anonymous_id": "6b4cf179", "topic": "commerce", "page": "/docs/checkout"}
+{"event_id": "f3f51359-c7ba-4a1d-b359-71b443e5ca95", "ts": "2026-11-03T02:13:00", "type": "login", "anonymous_id": "6b4cf179", "email": "user14@example.com"}
+{"event_id": "efc648e2-8343-4e3f-ad8e-8edfaa72faf7", "ts": "2026-11-03T02:47:00", "type": "page_view", "anonymous_id": "bd3c6d8d", "topic": "commerce", "page": "/docs/checkout"}
+{"event_id": "684c909b-f8ef-415f-91f4-2d1feb873918", "ts": "2026-11-03T03:16:00", "type": "page_view", "anonymous_id": "bd3c6d8d", "topic": "commerce", "page": "/docs/checkout"}
+{"event_id": "b6c1b20d-c6ad-4e1e-b55d-c17e212a9b9c", "ts": "2026-11-03T03:55:00", "type": "page_view", "anonymous_id": "bd3c6d8d", "topic": "commerce", "page": "/docs/checkout"}
+{"event_id": "a68676af-93a2-4ebb-bd23-050071631cfe", "ts": "2026-11-03T03:56:00", "type": "login", "anonymous_id": "bd3c6d8d", "email": "user14@example.com"}
+{"event_id": "3d131635-82c4-4da6-9762-8c7540be9e6f", "ts": "2026-11-03T04:06:00", "type": "consent_update", "anonymous_id": "bd3c6d8d", "email": "user14@example.com", "personalization": false}
+{"event_id": "12804e81-2c43-471f-9768-70f22b24423d", "ts": "2026-11-03T04:37:00", "type": "form_submit", "anonymous_id": "bd3c6d8d", "email": "user14@example.com", "form": "contact"}
+{"event_id": "0ae89d3b-a185-4a06-b0f3-2dbbb03c0a76", "ts": "2026-11-03T04:45:00", "type": "page_view", "anonymous_id": "e762ad1a", "topic": "commerce", "page": "/docs/checkout"}
+{"event_id": "8dc653ca-757e-483f-b57b-e09a1c2581fa", "ts": "2026-11-03T04:49:00", "type": "page_view", "anonymous_id": "e762ad1a", "topic": "commerce", "page": "/docs/checkout"}
+{"event_id": "45061b7c-ffd6-446a-8875-4530d50a18d1", "ts": "2026-11-03T05:23:00", "type": "page_view", "anonymous_id": "e762ad1a", "topic": "marketer", "page": "/docs/consent"}
+{"event_id": "5fb4fa94-98d4-4f25-a1fa-ba109f1b13c5", "ts": "2026-11-03T05:54:00", "type": "page_view", "anonymous_id": "dad5a6c7", "topic": "commerce", "page": "/docs/checkout"}
+{"event_id": "fed8b9ba-92db-4c2a-808c-c5426862d04c", "ts": "2026-11-03T06:30:00", "type": "page_view", "anonymous_id": "dad5a6c7", "topic": "developer", "page": "/docs/blocks"}
+{"event_id": "585e6c19-6e08-46c1-87f3-0baa9db33578", "ts": "2026-11-03T06:46:00", "type": "page_view", "anonymous_id": "dad5a6c7", "topic": "developer", "page": "/docs/blocks"}
+{"event_id": "f5135099-b60f-401c-80b3-f02b1400cb1c", "ts": "2026-11-03T06:49:00", "type": "page_view", "anonymous_id": "03c69881", "topic": "marketer", "page": "/docs/consent"}
+{"event_id": "61a8dace-69b7-4d7b-b78b-5b9df2a797e7", "ts": "2026-11-03T07:18:00", "type": "page_view", "anonymous_id": "05933444", "topic": "commerce", "page": "/docs/checkout"}
+{"event_id": "921d1f36-50a7-4ffe-a616-2351bdc1e787", "ts": "2026-11-03T07:23:00", "type": "page_view", "anonymous_id": "ab6ff53b", "topic": "developer", "page": "/docs/blocks"}
+{"event_id": "829e54d3-02c0-4a0f-91c7-a816f7cbd037", "ts": "2026-11-03T07:44:00", "type": "page_view", "anonymous_id": "ab6ff53b", "topic": "marketer", "page": "/docs/consent"}
+{"event_id": "ead4ee48-926a-4497-9cb9-22b7ca3ebc1c", "ts": "2026-11-03T08:17:00", "type": "page_view", "anonymous_id": "ab6ff53b", "topic": "commerce", "page": "/docs/checkout"}
+{"event_id": "20e2ab8a-91ab-4102-b932-382dec5c07d5", "ts": "2026-11-03T08:30:00", "type": "page_view", "anonymous_id": "2d296b51", "topic": "commerce", "page": "/docs/checkout"}
+{"event_id": "ca695b4f-1664-4b56-a461-b720ac02468f", "ts": "2026-11-03T08:48:00", "type": "page_view", "anonymous_id": "2d296b51", "topic": "commerce", "page": "/docs/checkout"}
+{"event_id": "3b35aaa3-c8c4-471e-bce4-6a2fab994819", "ts": "2026-11-03T09:21:00", "type": "page_view", "anonymous_id": "2d296b51", "topic": "marketer", "page": "/docs/consent"}
+{"event_id": "7889e988-9334-4e5e-9cc2-58eb63c37a4a", "ts": "2026-11-03T09:54:00", "type": "page_view", "anonymous_id": "f7e1ae6d", "topic": "marketer", "page": "/docs/consent"}
+{"event_id": "30562cbb-7f94-4bf1-8ccf-7a775d37e4c2", "ts": "2026-11-03T10:28:00", "type": "page_view", "anonymous_id": "f7e1ae6d", "topic": "developer", "page": "/docs/blocks"}
+{"event_id": "a0f5c9d7-db93-4e69-8c52-317dfe26415d", "ts": "2026-11-03T11:04:00", "type": "page_view", "anonymous_id": "f7e1ae6d", "topic": "marketer", "page": "/docs/consent"}
+{"event_id": "ce9e5aba-a972-421c-814f-a19ef5909cd6", "ts": "2026-11-03T11:13:00", "type": "page_view", "anonymous_id": "af2ba33a", "topic": "marketer", "page": "/docs/consent"}
+{"event_id": "eb2f341e-8559-403f-9ed6-ec52c4910d19", "ts": "2026-11-03T11:39:00", "type": "page_view", "anonymous_id": "202f4ac3", "topic": "developer", "page": "/docs/blocks"}
+{"event_id": "3b7bb4ba-124e-4641-83d4-4ee423eb442c", "ts": "2026-11-03T12:00:00", "type": "page_view", "anonymous_id": "202f4ac3", "topic": "marketer", "page": "/docs/consent"}
+{"event_id": "e74c05ed-e3f5-4c68-b6c7-d2c709203f02", "ts": "2026-11-03T12:16:00", "type": "page_view", "anonymous_id": "2933b5ed", "topic": "commerce", "page": "/docs/checkout"}

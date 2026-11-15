@@ -1,0 +1,552 @@
+[
+  {
+    "profile_id": "9551f6ff6935f400",
+    "email_hash": "9551f6ff6935f400d1422e75827ee012baad045daa3b733e3369fef22b0c9b4e",
+    "known": true,
+    "anonymous_ids": [
+      "d7e808a7"
+    ],
+    "first_seen": "2026-11-01T09:05:00",
+    "last_seen": "2026-11-01T11:34:00",
+    "event_counts": {
+      "page_view": 5,
+      "login": 1,
+      "consent_update": 1,
+      "form_submit": 1
+    },
+    "topic_views": {
+      "marketer": 4,
+      "developer": 1
+    },
+    "primary_segment": "marketer",
+    "consent_personalization": true,
+    "forms_submitted": [
+      "contact"
+    ]
+  },
+  {
+    "profile_id": "b36a83701f1c3191",
+    "email_hash": "b36a83701f1c3191e19722d6f90274bc1b5501fe69ebf33313e440fe4b0fe210",
+    "known": true,
+    "anonymous_ids": [
+      "4df921d1"
+    ],
+    "first_seen": "2026-11-01T12:12:00",
+    "last_seen": "2026-11-01T14:31:00",
+    "event_counts": {
+      "page_view": 6,
+      "login": 1,
+      "consent_update": 1,
+      "form_submit": 1
+    },
+    "topic_views": {
+      "developer": 5,
+      "commerce": 1
+    },
+    "primary_segment": "developer",
+    "consent_personalization": true,
+    "forms_submitted": [
+      "contact"
+    ]
+  },
+  {
+    "profile_id": "2b3b2b9ce842ab8b",
+    "email_hash": "2b3b2b9ce842ab8b6a6c614cb1f9604bb8a0d502d1af49c526b72b10894e95b5",
+    "known": true,
+    "anonymous_ids": [
+      "f41f7487"
+    ],
+    "first_seen": "2026-11-01T14:45:00",
+    "last_seen": "2026-11-01T17:23:00",
+    "event_counts": {
+      "page_view": 6,
+      "login": 1,
+      "consent_update": 1
+    },
+    "topic_views": {
+      "commerce": 6
+    },
+    "primary_segment": "commerce",
+    "consent_personalization": true,
+    "forms_submitted": []
+  },
+  {
+    "profile_id": "898628e28890f937",
+    "email_hash": "898628e28890f937bdf009391def42879c401a4bcf1b5fd24e738d9f5da8cbbb",
+    "known": true,
+    "anonymous_ids": [
+      "22f5112a",
+      "47d425bf"
+    ],
+    "first_seen": "2026-11-01T17:28:00",
+    "last_seen": "2026-11-01T21:14:00",
+    "event_counts": {
+      "page_view": 6,
+      "login": 2,
+      "consent_update": 1
+    },
+    "topic_views": {
+      "marketer": 5,
+      "developer": 1
+    },
+    "primary_segment": "marketer",
+    "consent_personalization": true,
+    "forms_submitted": []
+  },
+  {
+    "profile_id": "40d71d3f998c168e",
+    "email_hash": "40d71d3f998c168e7a254e75c0a1020185cfc67ab52790be92502835953fc41d",
+    "known": true,
+    "anonymous_ids": [
+      "22b4722e"
+    ],
+    "first_seen": "2026-11-01T21:19:00",
+    "last_seen": "2026-11-01T23:10:00",
+    "event_counts": {
+      "page_view": 2,
+      "login": 1,
+      "consent_update": 1,
+      "form_submit": 1
+    },
+    "topic_views": {
+      "marketer": 2
+    },
+    "primary_segment": "marketer",
+    "consent_personalization": false,
+    "forms_submitted": [
+      "contact"
+    ]
+  },
+  {
+    "profile_id": "4d8f4dd97e0c7b6f",
+    "email_hash": "4d8f4dd97e0c7b6fed6367bed08adc1fe2c7f6d22fc76f46d63c674c10e4d062",
+    "known": true,
+    "anonymous_ids": [
+      "5f4d4d2f",
+      "dcfe4272"
+    ],
+    "first_seen": "2026-11-01T23:21:00",
+    "last_seen": "2026-11-02T01:36:00",
+    "event_counts": {
+      "page_view": 5,
+      "login": 2,
+      "consent_update": 1
+    },
+    "topic_views": {
+      "commerce": 4,
+      "marketer": 1
+    },
+    "primary_segment": "commerce",
+    "consent_personalization": true,
+    "forms_submitted": []
+  },
+  {
+    "profile_id": "b430419a8a3fa1ce",
+    "email_hash": "b430419a8a3fa1ce5cafd92d89fe3e832b39b1f1cab0f351c1b270b585d5eded",
+    "known": true,
+    "anonymous_ids": [
+      "689c2121",
+      "903f98a0"
+    ],
+    "first_seen": "2026-11-02T02:03:00",
+    "last_seen": "2026-11-02T05:52:00",
+    "event_counts": {
+      "page_view": 10,
+      "login": 2,
+      "consent_update": 1
+    },
+    "topic_views": {
+      "developer": 8,
+      "commerce": 2
+    },
+    "primary_segment": "developer",
+    "consent_personalization": true,
+    "forms_submitted": []
+  },
+  {
+    "profile_id": "38121022af9b425b",
+    "email_hash": "38121022af9b425b5dbf9b56823cf14183bd617022a8bc39a5843c9d7035d039",
+    "known": true,
+    "anonymous_ids": [
+      "3791f115",
+      "da17b2d1"
+    ],
+    "first_seen": "2026-11-02T05:59:00",
+    "last_seen": "2026-11-02T08:52:00",
+    "event_counts": {
+      "page_view": 7,
+      "login": 2,
+      "consent_update": 1
+    },
+    "topic_views": {
+      "commerce": 6,
+      "marketer": 1
+    },
+    "primary_segment": "commerce",
+    "consent_personalization": true,
+    "forms_submitted": []
+  },
+  {
+    "profile_id": "675657c179a97bde",
+    "email_hash": "675657c179a97bde8a8cb572bfe434126b57311f5e9b49171855c5b6d0952dc5",
+    "known": true,
+    "anonymous_ids": [
+      "86ec0ee2",
+      "c72e4790"
+    ],
+    "first_seen": "2026-11-02T09:23:00",
+    "last_seen": "2026-11-02T12:53:00",
+    "event_counts": {
+      "page_view": 6,
+      "login": 2,
+      "consent_update": 1,
+      "form_submit": 1
+    },
+    "topic_views": {
+      "developer": 5,
+      "marketer": 1
+    },
+    "primary_segment": "developer",
+    "consent_personalization": true,
+    "forms_submitted": [
+      "contact"
+    ]
+  },
+  {
+    "profile_id": "b1e700bec7b4c7c3",
+    "email_hash": "b1e700bec7b4c7c386a589aa095a87af1792fe4b7b95c011e52e6f73327b098e",
+    "known": true,
+    "anonymous_ids": [
+      "6f550978",
+      "bf17dd9a"
+    ],
+    "first_seen": "2026-11-02T13:10:00",
+    "last_seen": "2026-11-02T15:48:00",
+    "event_counts": {
+      "page_view": 5,
+      "login": 2,
+      "consent_update": 1,
+      "form_submit": 1
+    },
+    "topic_views": {
+      "developer": 5
+    },
+    "primary_segment": "developer",
+    "consent_personalization": false,
+    "forms_submitted": [
+      "contact"
+    ]
+  },
+  {
+    "profile_id": "1cc95683bbb5c481",
+    "email_hash": "1cc95683bbb5c48117e33ef95a500d2224f8c0df2e32b608622b51db69956982",
+    "known": true,
+    "anonymous_ids": [
+      "3cff4e3b"
+    ],
+    "first_seen": "2026-11-02T16:19:00",
+    "last_seen": "2026-11-02T17:44:00",
+    "event_counts": {
+      "page_view": 2,
+      "login": 1,
+      "consent_update": 1
+    },
+    "topic_views": {
+      "marketer": 2
+    },
+    "primary_segment": "marketer",
+    "consent_personalization": true,
+    "forms_submitted": []
+  },
+  {
+    "profile_id": "69e6267c53626874",
+    "email_hash": "69e6267c53626874ae2ad01d9acae62c21ddfc993ae0967df0a69e13ea2747d7",
+    "known": true,
+    "anonymous_ids": [
+      "8c420892"
+    ],
+    "first_seen": "2026-11-02T18:15:00",
+    "last_seen": "2026-11-02T19:33:00",
+    "event_counts": {
+      "page_view": 3,
+      "login": 1,
+      "consent_update": 1
+    },
+    "topic_views": {
+      "marketer": 3
+    },
+    "primary_segment": "marketer",
+    "consent_personalization": true,
+    "forms_submitted": []
+  },
+  {
+    "profile_id": "882ecc75a8c8ab73",
+    "email_hash": "882ecc75a8c8ab735ee5a9223cd6cd5e6bef1eec2a5da7957cb2a8ff7b2ab6cb",
+    "known": true,
+    "anonymous_ids": [
+      "cb96bc18"
+    ],
+    "first_seen": "2026-11-02T19:46:00",
+    "last_seen": "2026-11-02T21:50:00",
+    "event_counts": {
+      "page_view": 5,
+      "login": 1,
+      "consent_update": 1,
+      "form_submit": 1
+    },
+    "topic_views": {
+      "developer": 5
+    },
+    "primary_segment": "developer",
+    "consent_personalization": true,
+    "forms_submitted": [
+      "contact"
+    ]
+  },
+  {
+    "profile_id": "f221e7d82b835de7",
+    "email_hash": "f221e7d82b835de7bab094045e7dd90e0451500180497c8c7d4fb5ee19568280",
+    "known": true,
+    "anonymous_ids": [
+      "2a888f4d"
+    ],
+    "first_seen": "2026-11-02T22:13:00",
+    "last_seen": "2026-11-03T00:03:00",
+    "event_counts": {
+      "page_view": 6,
+      "login": 1,
+      "consent_update": 1,
+      "form_submit": 1
+    },
+    "topic_views": {
+      "marketer": 6
+    },
+    "primary_segment": "marketer",
+    "consent_personalization": true,
+    "forms_submitted": [
+      "contact"
+    ]
+  },
+  {
+    "profile_id": "241b6d9462fcc198",
+    "email_hash": "241b6d9462fcc1986123393cd2e75cb4356647f401262691f7fe1f639415bca8",
+    "known": true,
+    "anonymous_ids": [
+      "6b4cf179",
+      "bd3c6d8d"
+    ],
+    "first_seen": "2026-11-03T00:12:00",
+    "last_seen": "2026-11-03T04:37:00",
+    "event_counts": {
+      "page_view": 7,
+      "login": 2,
+      "consent_update": 1,
+      "form_submit": 1
+    },
+    "topic_views": {
+      "commerce": 7
+    },
+    "primary_segment": "commerce",
+    "consent_personalization": false,
+    "forms_submitted": [
+      "contact"
+    ]
+  },
+  {
+    "profile_id": "anon:e762ad1a",
+    "email_hash": null,
+    "known": false,
+    "anonymous_ids": [
+      "e762ad1a"
+    ],
+    "first_seen": "2026-11-03T04:45:00",
+    "last_seen": "2026-11-03T05:23:00",
+    "event_counts": {
+      "page_view": 3
+    },
+    "topic_views": {
+      "commerce": 2,
+      "marketer": 1
+    },
+    "primary_segment": "commerce",
+    "consent_personalization": false,
+    "forms_submitted": []
+  },
+  {
+    "profile_id": "anon:dad5a6c7",
+    "email_hash": null,
+    "known": false,
+    "anonymous_ids": [
+      "dad5a6c7"
+    ],
+    "first_seen": "2026-11-03T05:54:00",
+    "last_seen": "2026-11-03T06:46:00",
+    "event_counts": {
+      "page_view": 3
+    },
+    "topic_views": {
+      "developer": 2,
+      "commerce": 1
+    },
+    "primary_segment": "developer",
+    "consent_personalization": false,
+    "forms_submitted": []
+  },
+  {
+    "profile_id": "anon:03c69881",
+    "email_hash": null,
+    "known": false,
+    "anonymous_ids": [
+      "03c69881"
+    ],
+    "first_seen": "2026-11-03T06:49:00",
+    "last_seen": "2026-11-03T06:49:00",
+    "event_counts": {
+      "page_view": 1
+    },
+    "topic_views": {
+      "marketer": 1
+    },
+    "primary_segment": "marketer",
+    "consent_personalization": false,
+    "forms_submitted": []
+  },
+  {
+    "profile_id": "anon:05933444",
+    "email_hash": null,
+    "known": false,
+    "anonymous_ids": [
+      "05933444"
+    ],
+    "first_seen": "2026-11-03T07:18:00",
+    "last_seen": "2026-11-03T07:18:00",
+    "event_counts": {
+      "page_view": 1
+    },
+    "topic_views": {
+      "commerce": 1
+    },
+    "primary_segment": "commerce",
+    "consent_personalization": false,
+    "forms_submitted": []
+  },
+  {
+    "profile_id": "anon:ab6ff53b",
+    "email_hash": null,
+    "known": false,
+    "anonymous_ids": [
+      "ab6ff53b"
+    ],
+    "first_seen": "2026-11-03T07:23:00",
+    "last_seen": "2026-11-03T08:17:00",
+    "event_counts": {
+      "page_view": 3
+    },
+    "topic_views": {
+      "developer": 1,
+      "marketer": 1,
+      "commerce": 1
+    },
+    "primary_segment": "commerce",
+    "consent_personalization": false,
+    "forms_submitted": []
+  },
+  {
+    "profile_id": "anon:2d296b51",
+    "email_hash": null,
+    "known": false,
+    "anonymous_ids": [
+      "2d296b51"
+    ],
+    "first_seen": "2026-11-03T08:30:00",
+    "last_seen": "2026-11-03T09:21:00",
+    "event_counts": {
+      "page_view": 3
+    },
+    "topic_views": {
+      "commerce": 2,
+      "marketer": 1
+    },
+    "primary_segment": "commerce",
+    "consent_personalization": false,
+    "forms_submitted": []
+  },
+  {
+    "profile_id": "anon:f7e1ae6d",
+    "email_hash": null,
+    "known": false,
+    "anonymous_ids": [
+      "f7e1ae6d"
+    ],
+    "first_seen": "2026-11-03T09:54:00",
+    "last_seen": "2026-11-03T11:04:00",
+    "event_counts": {
+      "page_view": 3
+    },
+    "topic_views": {
+      "marketer": 2,
+      "developer": 1
+    },
+    "primary_segment": "marketer",
+    "consent_personalization": false,
+    "forms_submitted": []
+  },
+  {
+    "profile_id": "anon:af2ba33a",
+    "email_hash": null,
+    "known": false,
+    "anonymous_ids": [
+      "af2ba33a"
+    ],
+    "first_seen": "2026-11-03T11:13:00",
+    "last_seen": "2026-11-03T11:13:00",
+    "event_counts": {
+      "page_view": 1
+    },
+    "topic_views": {
+      "marketer": 1
+    },
+    "primary_segment": "marketer",
+    "consent_personalization": false,
+    "forms_submitted": []
+  },
+  {
+    "profile_id": "anon:202f4ac3",
+    "email_hash": null,
+    "known": false,
+    "anonymous_ids": [
+      "202f4ac3"
+    ],
+    "first_seen": "2026-11-03T11:39:00",
+    "last_seen": "2026-11-03T12:00:00",
+    "event_counts": {
+      "page_view": 2
+    },
+    "topic_views": {
+      "developer": 1,
+      "marketer": 1
+    },
+    "primary_segment": "marketer",
+    "consent_personalization": false,
+    "forms_submitted": []
+  },
+  {
+    "profile_id": "anon:2933b5ed",
+    "email_hash": null,
+    "known": false,
+    "anonymous_ids": [
+      "2933b5ed"
+    ],
+    "first_seen": "2026-11-03T12:16:00",
+    "last_seen": "2026-11-03T12:16:00",
+    "event_counts": {
+      "page_view": 1
+    },
+    "topic_views": {
+      "commerce": 1
+    },
+    "primary_segment": "commerce",
+    "consent_personalization": false,
+    "forms_submitted": []
+  }
+]

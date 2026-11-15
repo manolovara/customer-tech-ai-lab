@@ -43,4 +43,4 @@ class LocalStore:
         return [keys[i] for i in np.argsort(-sims)[:k]]
 
 def get_store():
-    return LocalStore() if VECTOR_BACKEND == "local" else S3VectorsStore()
+    return LocalStore() #if VECTOR_BACKEND == "local" else S3VectorsStore()

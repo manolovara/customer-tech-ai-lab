@@ -1,7 +1,6 @@
-azure-search-documents
-openai
-python-dotenv
 boto3
 anthropic
 python-dotenv
 rank-bm25
+numpy
+fastembed
