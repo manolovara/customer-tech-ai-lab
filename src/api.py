@@ -80,8 +80,8 @@ def lead(body: LeadBody):
     if not profile:
         return {"status": "not_sent", "reason": "pick a known visitor for the demo"}
     payload = {"ts": datetime.datetime.now(datetime.timezone.utc).isoformat(),
-               "unified_id": profile["unified_id"], "interest": body.interest,
-               "segments": profile["segments"] if profile["consent_personalization"] else [],
+               "unified_id": profile["profile_id"], "interest": body.interest,
+               "segments": profile["primary_segment"] if profile["consent_personalization"] else [],
                "channel": "crm"}
     with open("data/leads.jsonl", "a", encoding="utf-8") as f:
         f.write(json.dumps(payload) + "\n")
