@@ -1,0 +1,5 @@
+{
+ "acme-install": {"name": "Acme Installations", "tier": "gold"},
+ "norte-hogar": {"name": "Norte Hogar S.L.", "tier": "silver"},
+ "nuevo-pro": {"name": "Nuevo Pro Services", "tier": "bronze"}
+}

@@ -4,8 +4,12 @@ from fastapi.responses import FileResponse  # pyright: ignore[reportMissingImpor
 from pydantic import BaseModel
 from ask import answer
 from decide import next_best_offers, persona_of
+from quote_api import router as quote_router
+from booking_api import router as booking_router
 
 app = FastAPI()
+app.include_router(quote_router)
+app.include_router(booking_router)
 PROFILES = json.load(open("data/profiles.json", encoding="utf-8"))
 ROLE_GROUPS = {"visitor": ["public"], "partner": ["public", "partner"]}  # prod: from the auth token
 HERO = {

@@ -1,0 +1,5 @@
+[
+ {"id": "t1", "name": "Technician A", "areas": ["28"], "skills": ["install", "maintenance", "audit"]},
+ {"id": "t2", "name": "Technician B", "areas": ["28", "46"], "skills": ["install", "maintenance"]},
+ {"id": "t3", "name": "Technician C", "areas": ["46"], "skills": ["audit", "maintenance", "install"]}
+]

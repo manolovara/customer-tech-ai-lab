@@ -1,0 +1,5 @@
+[
+ {"id": "install", "name": "Professional Installation", "duration_min": 120, "skill": "install", "price_eur": 99, "care_plan_price_eur": 99},
+ {"id": "maintenance", "name": "Maintenance Visit", "duration_min": 60, "skill": "maintenance", "price_eur": 79, "care_plan_price_eur": 0},
+ {"id": "audit", "name": "Home Energy Audit", "duration_min": 90, "skill": "audit", "price_eur": 149, "care_plan_price_eur": 119}
+]

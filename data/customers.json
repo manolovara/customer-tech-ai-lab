@@ -1,0 +1,6 @@
+{
+ "user0@example.com": {"name": "Lucia", "postcode": "28010", "care_plan": true, "notify_consent": true},
+ "user1@example.com": {"name": "Mateo", "postcode": "46001", "care_plan": false, "notify_consent": true},
+ "user2@example.com": {"name": "Sofia", "postcode": "28045", "care_plan": true, "notify_consent": false},
+ "user3@example.com": {"name": "Daniel", "postcode": "08005", "care_plan": false, "notify_consent": false}
+}
