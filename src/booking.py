@@ -22,9 +22,19 @@ def _eligible(email, service_id, tech_id):
     t, s = TECHS[tech_id], SERVICES[service_id]
     return CUSTOMERS[email]["postcode"][:2] in t["areas"] and s["skill"] in t["skills"]
 
+SERVICE_AREAS = "the Madrid and Valencia provinces"
+OUT_OF_AREA = {"error": "out_of_area",
+               "message": f"This address is outside our service area. We currently serve "
+                          f"{SERVICE_AREAS}. Offer to hand the customer over to a human agent."}
+
+def in_service_area(email):
+    return any(CUSTOMERS[email]["postcode"][:2] in t["areas"] for t in TECHS.values())
+
 def find_slots(email, service_id, earliest=None, n=4):
+    if not in_service_area(email):
+        return dict(OUT_OF_AREA)
     if not any(_eligible(email, service_id, t) for t in TECHS):
-        return {"error": "out_of_area"}
+        return {"error": "no_technician_for_this_service_in_your_area"}
     try:
         earliest = datetime.date.fromisoformat(earliest).isoformat()
     except (TypeError, ValueError):

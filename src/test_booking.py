@@ -11,7 +11,8 @@ A, B, C = "user0@example.com", "user2@example.com", "user3@example.com"
 r = bk.find_slots(A, "maintenance")
 assert r["slots"] and r["price_eur"] == 0                       # Care Plan covers maintenance
 assert bk.price_for("user1@example.com", "maintenance") == 79    # no Care Plan: full price
-assert bk.find_slots(C, "install") == {"error": "out_of_area"}
+assert bk.find_slots(C, "install")["error"] == "out_of_area"
+assert not bk.in_service_area(C) and bk.in_service_area(A)
 
 slot = r["slots"][0]["slot_id"]
 b1 = bk.commit_booking(A, slot, "maintenance", "key-1")
