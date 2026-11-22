@@ -80,7 +80,7 @@ function render(q) {
 $("go").onclick = async () => {
   $("err").textContent = "Working...";
   const r = await call("/api/quote", {account_id: $("acct").value,
-                                status: $("status").value, message: $("msg").value, role: $("role").value});
+                                message: $("msg").value, role: $("role").value});
   $("err").textContent = r.ok ? "" : r.data.detail;
   if (r.ok) render(r.data);
 };

@@ -2,7 +2,7 @@ import datetime, hashlib, json
 from fastapi import FastAPI  # pyright: ignore[reportMissingImports]
 from fastapi.responses import FileResponse  # pyright: ignore[reportMissingImports]
 from pydantic import BaseModel
-from ask import answer
+from ask import answer, REFUSAL
 from decide import next_best_offers, persona_of
 from quote_api import router as quote_router
 from booking_api import router as booking_router
@@ -68,7 +68,8 @@ def ask_endpoint(body: AskBody):
         hint += f" The visitor is a {persona.replace('_', ' ')}: use relevant examples."
     text, hits = answer(body.question, ROLE_GROUPS.get(body.role, ["public"]),
                         profile["primary_segment"] if persona else None, hint)
-    return {"answer": text, "sources": sorted({h["source"] for h in hits}),
+    sources = [] if text == REFUSAL else sorted({h["source"] for h in hits})   # cite only real answers
+    return {"answer": text, "sources": sources,
             "personalized": bool(persona)}
 
 class LeadBody(BaseModel):

@@ -40,7 +40,8 @@ def audit(event, **kw):
     append("data/audit.jsonl", {"ts": now(), "event": event, **kw})
 
 def load_quotes():
-    return json.loads(QUOTES.read_text(encoding="utf-8")) if QUOTES.exists() else {}
+    text = QUOTES.read_text(encoding="utf-8").strip() if QUOTES.exists() else ""
+    return json.loads(text) if text else {}
 
 def save_quotes(data):
     QUOTES.write_text(json.dumps(data, indent=1), encoding="utf-8")
@@ -91,11 +92,13 @@ def approve(quote_id, role):
     if need is None:
         return {"error": "nothing to approve"}
     if APPROVER_RANK.get(role, 0) < need:
+        audit("approval_denied", quote_id=quote_id, approver_role=role, status=q["status"])
         return {"error": f"role '{role}' cannot approve this quote"}
     q.update({"discount_pct": q["target_pct"], "total_eur": q["total_if_approved_eur"],
               "status": "approved", "approved_by": role})
     q["discount_eur"] = round(q["subtotal_eur"] - q["total_eur"], 2)
     save_quotes(data)
-    audit("quote_approved", quote_id=quote_id, approver_role=role, total_eur=q["total_eur"])
+    audit("quote_approved", quote_id=quote_id, approver_role=role, status=q["status"],
+          total_eur=q["total_eur"])
     push_opportunity(q)
     return q

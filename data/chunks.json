@@ -318,5 +318,21 @@
   "source": "partner-price-pro-training.md",
   "audience": "all",
   "level": 1
+ },
+ {
+  "id": "terms-installer-orders-0",
+  "title": "Installer order terms",
+  "text": "# Installer order terms\n\nDelivery: the standard lead time is 5-7 business days for stocked devices and 15 business days for orders above 50 units.\n\nPayment: net 30 days from invoice for accounts with approved credit. New accounts pay 50% upfront.\n\nWarranty: devices carry a 24-month warranty. The Care Plan extends it to 36 months and includes yearly maintenance.\n\nReturns: unopened devices can be returned within 30 days, with a 10% restocking fee.\n\nQuote validity: quotes are valid for 30 days from the date of issue.",
+  "source": "terms-installer-orders.md",
+  "audience": "all",
+  "level": 1
+ },
+ {
+  "id": "services-policies-0",
+  "title": "Service visit policies",
+  "text": "# Service visit policies\n\nArrival: the technician arrives within the booked time slot, and the visit lasts the stated duration.\n\nPreparation: make sure an adult is at home, the devices are reachable and the Wi-Fi password is available.\n\nCancellation: free of charge up to 24 hours before the visit. Cancelling within 24 hours costs 30 EUR.\n\nRescheduling: rescheduling is a cancellation plus a new booking, with the same rules.\n\nNo-show: if nobody is at home during the slot, a 50 EUR fee applies.\n\nCoverage: maintenance visits are free for Care Plan customers, and the energy audit has a reduced price.\n\nService areas: we currently serve the Madrid and Valencia provinces.",
+  "source": "services-policies.md",
+  "audience": "all",
+  "level": 0
  }
 ]

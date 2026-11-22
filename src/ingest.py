@@ -19,7 +19,12 @@ def chunk(text, size=900, overlap=150):
     return chunks
 
 chunks, vectors = [], []
-for row in csv.DictReader(open("data/manifest.csv", encoding="utf-8")):
+for n, row in enumerate(csv.DictReader(open("data/manifest.csv", encoding="utf-8")), start=2):
+    if None in row.values() or None in row or row["allowed_groups"] not in LEVEL:
+        raise SystemExit(f"data/manifest.csv line {n}: expected file,title,source,audience,"
+                         f"allowed_groups with allowed_groups in {list(LEVEL)}; got {row}")
+    if not pathlib.Path("data/docs", row["file"]).exists():
+        raise SystemExit(f"data/manifest.csv line {n}: data/docs/{row['file']} not found")
     text = pathlib.Path("data/docs", row["file"]).read_text(encoding="utf-8")
     stem = re.sub(r"[^A-Za-z0-9_-]", "-", pathlib.Path(row["file"]).stem)
     parts = chunk(text)

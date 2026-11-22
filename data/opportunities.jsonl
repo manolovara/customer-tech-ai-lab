@@ -1,0 +1,4 @@
+{"ts": "2026-11-22T14:38:05.693929+00:00", "quote_id": "Q-608a3c7b", "account_id": "acme-install", "amount_eur": 2735.52, "stage": "quoted", "valid_until": "2026-12-22"}
+{"ts": "2026-11-22T14:38:09.077691+00:00", "quote_id": "Q-79974f40", "account_id": "acme-install", "amount_eur": 2563.2, "stage": "quoted", "valid_until": "2026-12-22"}
+{"ts": "2026-11-22T14:38:11.991154+00:00", "quote_id": "Q-3422410c", "account_id": "nuevo-pro", "amount_eur": 89.5, "stage": "quoted", "valid_until": "2026-12-22"}
+{"ts": "2026-11-22T14:38:15.117422+00:00", "quote_id": "Q-042b904d", "account_id": "acme-install", "amount_eur": 1058.0, "stage": "quoted", "valid_until": "2026-12-22"}

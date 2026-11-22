@@ -1,0 +1,198 @@
+{
+ "Q-608a3c7b": {
+  "account_id": "acme-install",
+  "account": "Acme Installations",
+  "tier": "gold",
+  "currency": "EUR",
+  "vat": "excluded",
+  "lines": [
+   {
+    "id": "hub-pro",
+    "name": "Altea Hub Pro",
+    "type": "product",
+    "quantity": 12,
+    "unit_eur": 179.0,
+    "line_eur": 2148.0
+   },
+   {
+    "id": "install-basic",
+    "name": "Professional Installation",
+    "type": "service",
+    "quantity": 12,
+    "unit_eur": 99.0,
+    "line_eur": 1188.0
+   }
+  ],
+  "subtotal_eur": 3336.0,
+  "standard_discount_pct": 8.0,
+  "requested_discount_pct": 18,
+  "target_pct": 18.0,
+  "discount_pct": 18.0,
+  "discount_eur": 600.48,
+  "total_eur": 2735.52,
+  "total_if_approved_eur": 2735.52,
+  "status": "approved",
+  "valid_until": "2026-12-22",
+  "clarifications": [],
+  "suggestions": [
+   {
+    "id": "care-plan",
+    "name": "Altea Care Plan (annual)",
+    "why": "Extends the warranty to 36 months and covers yearly maintenance"
+   }
+  ],
+  "id": "Q-608a3c7b",
+  "created": "2026-11-22T14:38:05.686120+00:00",
+  "terms": "- **Delivery:** Standard lead time is 5-7 business days for stocked devices, and 15 business days for orders above 50 units [1].\n- **Payment:** Accounts with approved credit pay net 30 days from invoice. New accounts pay 50% upfront [1].\n- **Warranty:** Devices carry a 24-month warranty. The Care Plan extends it to 36 months and includes yearly maintenance [1].\n- **Returns:** Unopened devices can be returned within 30 days, subject to a 10% restocking fee [1].\n- **Note:** Partner pricing terms list payment at 45 days from invoice, which differs from the installer terms above [2].",
+  "terms_sources": [
+   "partner-pricing.md",
+   "product-install-basic.md",
+   "product-pro-training.md",
+   "terms-installer-orders.md"
+  ],
+  "approved_by": "manager"
+ },
+ "Q-79974f40": {
+  "account_id": "acme-install",
+  "account": "Acme Installations",
+  "tier": "gold",
+  "currency": "EUR",
+  "vat": "excluded",
+  "lines": [
+   {
+    "id": "thermo-1",
+    "name": "Altea Thermostat One",
+    "type": "product",
+    "quantity": 20,
+    "unit_eur": 89.0,
+    "line_eur": 1780.0
+   },
+   {
+    "id": "meter-2",
+    "name": "Altea Energy Meter",
+    "type": "product",
+    "quantity": 20,
+    "unit_eur": 55.0,
+    "line_eur": 1100.0
+   }
+  ],
+  "subtotal_eur": 2880.0,
+  "standard_discount_pct": 11.0,
+  "requested_discount_pct": 10,
+  "target_pct": 11.0,
+  "discount_pct": 11.0,
+  "discount_eur": 316.8,
+  "total_eur": 2563.2,
+  "total_if_approved_eur": 2563.2,
+  "status": "approved",
+  "valid_until": "2026-12-22",
+  "clarifications": [],
+  "suggestions": [
+   {
+    "id": "care-plan",
+    "name": "Altea Care Plan (annual)",
+    "why": "Extends the warranty to 36 months and covers yearly maintenance"
+   }
+  ],
+  "id": "Q-79974f40",
+  "created": "2026-11-22T14:38:09.076836+00:00",
+  "terms": "- **Delivery:** Standard lead time is 5-7 business days for stocked devices, and 15 business days for orders above 50 units [1].\n- **Payment:** Accounts with approved credit pay net 30 days from invoice. New accounts pay 50% upfront [1].\n- **Payment (partners):** A separate partner price list states 45 days from invoice, with a 1.5% credit for payment within 10 days [2]. This differs from the installer terms, so confirm which applies.\n- **Warranty:** Devices carry a 24-month warranty. The Care Plan extends it to 36 months and includes yearly maintenance [1].\n- **Returns:** Unopened devices can be returned within 30 days, subject to a 10% restocking fee [1].",
+  "terms_sources": [
+   "partner-pricing.md",
+   "product-install-basic.md",
+   "product-pro-training.md",
+   "terms-installer-orders.md"
+  ]
+ },
+ "Q-3422410c": {
+  "account_id": "nuevo-pro",
+  "account": "Nuevo Pro Services",
+  "tier": "bronze",
+  "currency": "EUR",
+  "vat": "excluded",
+  "lines": [
+   {
+    "id": "hub-pro",
+    "name": "Altea Hub Pro",
+    "type": "product",
+    "quantity": 5,
+    "unit_eur": 179.0,
+    "line_eur": 895.0
+   }
+  ],
+  "subtotal_eur": 895.0,
+  "standard_discount_pct": 0.0,
+  "requested_discount_pct": 90,
+  "target_pct": 90.0,
+  "discount_pct": 90.0,
+  "discount_eur": 805.5,
+  "total_eur": 89.5,
+  "total_if_approved_eur": 89.5,
+  "status": "approved",
+  "valid_until": "2026-12-22",
+  "clarifications": [],
+  "suggestions": [
+   {
+    "id": "care-plan",
+    "name": "Altea Care Plan (annual)",
+    "why": "Extends the warranty to 36 months and covers yearly maintenance"
+   }
+  ],
+  "id": "Q-3422410c",
+  "created": "2026-11-22T14:38:11.982019+00:00",
+  "terms": "- **Delivery:** Standard lead time is 5-7 business days for stocked devices, and 15 business days for orders above 50 units [1].\n- **Payment:** Net 30 days from invoice for accounts with approved credit. New accounts pay 50% upfront [1].\n- **Warranty:** Devices carry a 24-month warranty. The Care Plan extends it to 36 months and includes yearly maintenance [1].\n- **Returns:** Unopened devices can be returned within 30 days, with a 10% restocking fee [1].\n- **Note:** Source 2 gives different payment terms (45 days from invoice) for partner pricing, so confirm which applies to your account [2].",
+  "terms_sources": [
+   "partner-pricing.md",
+   "product-install-basic.md",
+   "product-pro-training.md",
+   "terms-installer-orders.md"
+  ],
+  "approved_by": "director"
+ },
+ "Q-042b904d": {
+  "account_id": "acme-install",
+  "account": "Acme Installations",
+  "tier": "gold",
+  "currency": "EUR",
+  "vat": "excluded",
+  "lines": [
+   {
+    "id": "cam-3",
+    "name": "Altea Doorbell Cam",
+    "type": "product",
+    "quantity": 10,
+    "unit_eur": 115.0,
+    "line_eur": 1150.0
+   }
+  ],
+  "subtotal_eur": 1150.0,
+  "standard_discount_pct": 8.0,
+  "requested_discount_pct": null,
+  "target_pct": 8.0,
+  "discount_pct": 8.0,
+  "discount_eur": 92.0,
+  "total_eur": 1058.0,
+  "total_if_approved_eur": 1058.0,
+  "status": "approved",
+  "valid_until": "2026-12-22",
+  "clarifications": [
+   "Not in catalog: solar inverter"
+  ],
+  "suggestions": [
+   {
+    "id": "care-plan",
+    "name": "Altea Care Plan (annual)",
+    "why": "Extends the warranty to 36 months and covers yearly maintenance"
+   }
+  ],
+  "id": "Q-042b904d",
+  "created": "2026-11-22T14:38:15.116417+00:00",
+  "terms": "- **Delivery:** Standard lead time is 5-7 business days for stocked devices and 15 business days for orders above 50 units [1].\n- **Payment:** Net 30 days from invoice for accounts with approved credit. New accounts pay 50% upfront [1].\n- **Warranty:** Devices carry a 24-month warranty. The Care Plan extends it to 36 months and includes yearly maintenance [1].\n- **Returns:** Unopened devices can be returned within 30 days, with a 10% restocking fee [1].\n- **Note:** A separate partner pricing source lists 45-day payment terms, with a 1.5% credit for payment within 10 days [2]. It doesn't say whether this applies to installer orders, so the net 30 terms in [1] are the ones that cover installer orders.",
+  "terms_sources": [
+   "partner-pricing.md",
+   "product-install-basic.md",
+   "product-pro-training.md",
+   "terms-installer-orders.md"
+  ]
+ }
+}
