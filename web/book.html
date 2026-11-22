@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Altea Service Booking</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+ body{font-family:system-ui,sans-serif;margin:0;color:#1a1a1a;background:#fafafa}
+ main{max-width:760px;margin:0 auto;padding:16px}
+ #log{background:#fff;border:1px solid #ddd;border-radius:10px;padding:12px;min-height:220px;max-height:380px;overflow:auto}
+ .me{text-align:right;margin:6px 0}
+ .me span{background:#e8efe9;padding:6px 10px;border-radius:12px;display:inline-block}
+ .bot{margin:6px 0}
+ .bot span{background:#f1f1f1;padding:6px 10px;border-radius:12px;display:inline-block;white-space:pre-wrap}
+ .pend{border:2px solid #d9a400;background:#fff8e1;border-radius:10px;padding:10px 14px;margin:12px 0}
+ .why{font-size:13px;color:#555}
+ input[type=text]{width:72%;padding:8px}
+ button{padding:8px 12px;cursor:pointer}
+</style></head>
+<body><main>
+ <h2>Altea Service Booking</h2>
+ <p><label>Customer <select id="who"></select></label></p>
+ <div id="log"></div>
+ <div id="pend"></div>
+ <p><input type="text" id="msg" placeholder="e.g. I need a maintenance visit">
+  <button id="send">Send</button></p>
+ <h4>My bookings</h4><ul id="bk"></ul>
+</main>
+<script>
+const $ = id => document.getElementById(id);
+const el = (tag, text, cls) => {
+  const e = document.createElement(tag);
+  if (text !== undefined) e.textContent = text;
+  if (cls) e.className = cls;
+  return e;
+};
+const call = async (url, body) => {
+  const r = await fetch(url, {method: "POST", headers: {"Content-Type": "application/json"},
+                              body: JSON.stringify(body)});
+  return {ok: r.ok, data: await r.json()};
+};
+let sid = null;
+
+function add(who, text) {
+  const d = el("div", undefined, who);
+  d.append(el("span", text));
+  $("log").append(d);
+  $("log").scrollTop = $("log").scrollHeight;
+}
+
+async function bookings() {
+  const r = await fetch("/api/book/bookings?email=" + encodeURIComponent($("who").value)).then(x => x.json());
+  const ul = $("bk"); ul.replaceChildren();
+  r.forEach(b => ul.append(el("li", `${b.booking_id}: ${b.service_id} on ${b.start.replace("T", " ")} (${b.price_eur} EUR)`)));
+  if (!r.length) ul.append(el("li", "No bookings yet"));
+}
+
+function pending(p) {
+  const box = $("pend"); box.replaceChildren();
+  if (!p) return;
+  const c = el("div", undefined, "pend");
+  const yes = el("button", "Confirm"), no = el("button", "Decline");
+  yes.onclick = () => decide("confirm");
+  no.onclick = () => decide("decline");
+  c.append(el("strong", p.label), el("p", "Nothing changes until you confirm.", "why"), yes, " ", no);
+  box.append(c);
+}
+
+async function decide(decision) {
+  const r = await call("/api/book/confirm", {session_id: sid, decision});
+  pending(null);
+  const d = r.data;
+  add("bot", !r.ok ? (d.detail || "Something went wrong") :
+    d.status === "declined" ? "Okay, nothing was changed." :
+    d.status === "cancelled" ? `Cancelled ${d.booking_id}. Fee: ${d.fee_eur} EUR.` :
+    d.booking_id ? `Booked ${d.booking_id} for ${d.start.replace("T", " ")}.` : "Done.");
+  bookings();
+}
+
+async function send() {
+  const text = $("msg").value.trim();
+  if (!text) return;
+  $("msg").value = "";
+  add("me", text);
+  const r = await call("/api/book/chat", {session_id: sid, message: text});
+  if (!r.ok) { add("bot", r.data.detail || "Error"); return; }
+  add("bot", r.data.reply);
+  pending(r.data.pending);
+}
+
+async function start() {
+  $("log").replaceChildren(); pending(null);
+  const r = await call("/api/book/start", {email: $("who").value});
+  sid = r.data.session_id;
+  add("bot", "Hi! I can book installations, maintenance visits and energy audits. What do you need?");
+  bookings();
+}
+
+$("send").onclick = send;
+$("msg").onkeydown = e => { if (e.key === "Enter") send(); };
+$("who").onchange = start;
+(async () => {
+  const cs = await fetch("/api/customers").then(r => r.json());
+  cs.forEach(c => $("who").add(new Option(`${c.name}${c.care_plan ? " (Care Plan)" : ""}`, c.email)));
+  start();
+})();
+</script></body></html>

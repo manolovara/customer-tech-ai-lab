@@ -1,0 +1,380 @@
+[
+ {
+  "slot_id": "S0001",
+  "tech_id": "t1",
+  "start": "2026-11-23T09:00",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0002",
+  "tech_id": "t1",
+  "start": "2026-11-23T11:30",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0003",
+  "tech_id": "t1",
+  "start": "2026-11-23T14:00",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0004",
+  "tech_id": "t2",
+  "start": "2026-11-23T09:00",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0005",
+  "tech_id": "t2",
+  "start": "2026-11-23T11:30",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0006",
+  "tech_id": "t2",
+  "start": "2026-11-23T14:00",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0007",
+  "tech_id": "t3",
+  "start": "2026-11-23T11:30",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0008",
+  "tech_id": "t3",
+  "start": "2026-11-23T14:00",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0009",
+  "tech_id": "t1",
+  "start": "2026-11-24T09:00",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0010",
+  "tech_id": "t1",
+  "start": "2026-11-24T14:00",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0011",
+  "tech_id": "t2",
+  "start": "2026-11-24T11:30",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0012",
+  "tech_id": "t2",
+  "start": "2026-11-24T14:00",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0013",
+  "tech_id": "t3",
+  "start": "2026-11-24T11:30",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0014",
+  "tech_id": "t3",
+  "start": "2026-11-24T14:00",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0015",
+  "tech_id": "t1",
+  "start": "2026-11-25T09:00",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0016",
+  "tech_id": "t1",
+  "start": "2026-11-25T11:30",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0017",
+  "tech_id": "t2",
+  "start": "2026-11-25T11:30",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0018",
+  "tech_id": "t1",
+  "start": "2026-11-26T09:00",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0019",
+  "tech_id": "t1",
+  "start": "2026-11-26T11:30",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0020",
+  "tech_id": "t1",
+  "start": "2026-11-26T14:00",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0021",
+  "tech_id": "t2",
+  "start": "2026-11-26T09:00",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0022",
+  "tech_id": "t2",
+  "start": "2026-11-26T11:30",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0023",
+  "tech_id": "t2",
+  "start": "2026-11-26T14:00",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0024",
+  "tech_id": "t3",
+  "start": "2026-11-26T09:00",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0025",
+  "tech_id": "t3",
+  "start": "2026-11-26T11:30",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0026",
+  "tech_id": "t3",
+  "start": "2026-11-26T14:00",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0027",
+  "tech_id": "t1",
+  "start": "2026-11-27T09:00",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0028",
+  "tech_id": "t1",
+  "start": "2026-11-27T11:30",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0029",
+  "tech_id": "t1",
+  "start": "2026-11-27T14:00",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0030",
+  "tech_id": "t2",
+  "start": "2026-11-27T09:00",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0031",
+  "tech_id": "t2",
+  "start": "2026-11-27T11:30",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0032",
+  "tech_id": "t3",
+  "start": "2026-11-27T09:00",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0033",
+  "tech_id": "t3",
+  "start": "2026-11-27T14:00",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0034",
+  "tech_id": "t1",
+  "start": "2026-11-30T09:00",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0035",
+  "tech_id": "t1",
+  "start": "2026-11-30T11:30",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0036",
+  "tech_id": "t1",
+  "start": "2026-11-30T14:00",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0037",
+  "tech_id": "t2",
+  "start": "2026-11-30T09:00",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0038",
+  "tech_id": "t2",
+  "start": "2026-11-30T11:30",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0039",
+  "tech_id": "t3",
+  "start": "2026-11-30T11:30",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0040",
+  "tech_id": "t3",
+  "start": "2026-11-30T14:00",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0041",
+  "tech_id": "t1",
+  "start": "2026-12-01T09:00",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0042",
+  "tech_id": "t1",
+  "start": "2026-12-01T11:30",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0043",
+  "tech_id": "t2",
+  "start": "2026-12-01T09:00",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0044",
+  "tech_id": "t2",
+  "start": "2026-12-01T11:30",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0045",
+  "tech_id": "t2",
+  "start": "2026-12-01T14:00",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0046",
+  "tech_id": "t3",
+  "start": "2026-12-01T11:30",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0047",
+  "tech_id": "t3",
+  "start": "2026-12-01T14:00",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0048",
+  "tech_id": "t1",
+  "start": "2026-12-02T09:00",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0049",
+  "tech_id": "t2",
+  "start": "2026-12-02T14:00",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0050",
+  "tech_id": "t3",
+  "start": "2026-12-02T11:30",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0051",
+  "tech_id": "t3",
+  "start": "2026-12-02T14:00",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0052",
+  "tech_id": "t1",
+  "start": "2026-12-03T11:30",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0053",
+  "tech_id": "t2",
+  "start": "2026-12-03T09:00",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0054",
+  "tech_id": "t2",
+  "start": "2026-12-03T14:00",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0055",
+  "tech_id": "t3",
+  "start": "2026-12-03T11:30",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0056",
+  "tech_id": "t3",
+  "start": "2026-12-03T14:00",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0057",
+  "tech_id": "t1",
+  "start": "2026-12-04T09:00",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0058",
+  "tech_id": "t1",
+  "start": "2026-12-04T11:30",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0059",
+  "tech_id": "t1",
+  "start": "2026-12-04T14:00",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0060",
+  "tech_id": "t2",
+  "start": "2026-12-04T11:30",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0061",
+  "tech_id": "t2",
+  "start": "2026-12-04T14:00",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0062",
+  "tech_id": "t3",
+  "start": "2026-12-04T09:00",
+  "status": "free"
+ },
+ {
+  "slot_id": "S0063",
+  "tech_id": "t3",
+  "start": "2026-12-04T14:00",
+  "status": "free"
+ }
+]
